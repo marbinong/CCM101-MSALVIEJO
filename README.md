@@ -2,7 +2,7 @@
 
 ## About Me
 
-Hi! I’m Justine Raniel S. Carig, a BS Information Technology student. I’m interested in UI/UX design and enjoy learning new things related to Information Technology.
+Hello! I’m MARVIN E. SALVIEJO, a BS Information Technology student with an interest in UI/UX design. I enjoy exploring different topics and learning more about Information Technology.
 
 ## About This Repository
 
