@@ -3,8 +3,6 @@
 
 # Checkpoint 3 — `cloud-components.md`
 
-You can use this structure:
-
 ```markdown
 # Cloud Infrastructure Components
 
