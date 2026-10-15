@@ -1,1 +1,11 @@
+# Mission 8: Cloud Security Engineer Reflection
 
+Completing this laboratory activity helped me understand the importance of securing a server before making its applications accessible to users. I learned that a host-based firewall provides another layer of protection even if the physical network perimeter is breached. Since the firewall runs directly on the server, it can control incoming and outgoing network connections based on configured rules. This helps prevent unauthorized traffic from reaching services running on the machine.
+
+Managing open network ports is also important because every exposed service can become a possible entry point for attackers. If unnecessary ports remain open, attackers may discover vulnerable services and attempt to exploit them. By allowing only the ports needed by the application, administrators can reduce the server's attack surface and improve its security.
+
+In a real enterprise environment, leaving a database port such as 3306 for MySQL open to the public internet is dangerous. Attackers could attempt password guessing, exploit database vulnerabilities, or access sensitive information if the database is not properly secured. Database access should be restricted to trusted application servers or authorized administrators. Strong passwords, appropriate permissions, encryption, and regular updates should also be implemented.
+
+This mission changed my perspective because I realized that a server can become vulnerable when important security settings are overlooked. Deploying an application is not enough; administrators must also check listening ports, configure firewall rules, and test whether access is properly restricted. I also learned why SSH should be allowed before enabling UFW to avoid losing remote administrative access.
+
+Having eight completed missions in my GitHub cloud computing portfolio gives me a better way to organize and demonstrate the skills I have learned. Each laboratory activity documents my progress in cloud infrastructure, deployment, operations, and security. The portfolio can also help me review commands and explain my practical experience. Overall, this mission taught me that cloud security requires careful configuration, regular monitoring, and continuous improvement rather than a one-time setup.
